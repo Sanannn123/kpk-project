@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #c4e8ed;
+}
+
+body header {
+  padding: 10px 0 0 20px;
+}
+
+body header nav .row .left-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav .row .left-col .logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #143774;
+}
+
+body header nav .row .left-col .navbar {
+  width: 100%;
+}
+
+body header nav .row .left-col .navbar ul {
+  width: 70%;
+  text-transform: capitalize;
+  color: #143774;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav .row .center-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header nav .row .center-col .search {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav .row .center-col .search span {
+  color: #143774;
+}
+
+body header nav .row .center-col .search img {
+  width: 20px;
+}
+
+body header nav .row .last-col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body header nav .row .last-col img {
+  width: 20px;
+}
+
+body hr {
+  color: white;
+}
+
+body main .container .row .first-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .container .row .first-col img {
+  width: 30px;
+}
+
+body main .container .row .first-col .text {
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 20%;
+}
+
+body main .container .row .first-col .text span {
+  color: #143774;
+  font-weight: 500;
+}
+
+body main .container .row .first-col .text img {
+  width: 12px;
+}
+
+body main .container .row .third-col {
+  background-color: white;
+}
+
+body main .container .row .third-col .container {
+  margin-top: 50px;
+}
+
+body main .container .row .third-col .container .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .container .row .third-col .container .head h3 {
+  color: #143774;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+body main .container .row .third-col .container .head span {
+  font-size: 25px;
+  color: #d5345e;
+}
+
+body main .container .row .third-col .container span {
+  color: #143774;
+  font-size: 20px;
+}
+
+body main .container .row .third-col .container p {
+  margin-top: 50px;
+}
+
+body main .container .row .third-col .number {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: solid 2px black;
+  padding: 20px;
+}
+
+body main .container .row .third-col .number span {
+  font-size: 25px;
+}
+
+body main .container .row .third-col button {
+  margin-top: 20px;
+  background-color: #143774;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 70px;
+}
+/*# sourceMappingURL=style.css.map */
